@@ -1,0 +1,110 @@
+name: stella_karaoke
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  shared_preferences_windows: ^2.2.1
+  http: ^1.2.0
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # 아야츠노 유니
+    - assets/data/yuni/original.json
+    - assets/data/yuni/cover.json
+    - assets/data/yuni/concerts.json
+
+    # 사키하네 후야
+    - assets/data/huya/original.json
+    - assets/data/huya/cover.json
+
+    # 시라유키 히나
+    - assets/data/hina/original.json
+    - assets/data/hina/cover.json
+    - assets/data/hina/collabo.json
+    - assets/data/hina/playlist.json
+
+    # 네네코 마시로
+    - assets/data/mashiro/original.json
+    - assets/data/mashiro/cover.json
+    - assets/data/mashiro/playlist.json
+
+    # 아카네 리제
+    - assets/data/lize/original.json
+    - assets/data/lize/cover.json
+    - assets/data/lize/collabo.json
+    - assets/data/lize/mashup.json
+
+    # 아라하시 타비
+    - assets/data/tabi/original.json
+    - assets/data/tabi/cover.json
+
+    # 텐코 시부키
+    - assets/data/shibuki/original.json
+    - assets/data/shibuki/cover.json
+    - assets/data/shibuki/collabo.json
+
+    # 아오쿠모 린
+    - assets/data/rin/original.json
+    - assets/data/rin/cover.json
+    - assets/data/rin/collabo.json
+    - assets/data/rin/playlist.json
+
+    # 하나코 나나
+    - assets/data/nana/original.json
+    - assets/data/nana/cover.json
+    - assets/data/nana/collabo.json
+
+    # 유즈하 리코
+    - assets/data/riko/original.json
+    - assets/data/riko/cover.json
+    - assets/data/riko/collabo.json
+
+    # 아이리 칸나 (졸업)
+    - assets/data/kanna/original.json
+    - assets/data/kanna/cover.json
+    - assets/data/kanna/collabo.json
+    - assets/data/kanna/playlist.json
+    - assets/data/kanna/concerts.json
+
+    # 스텔라이브 채널
+    - assets/data/GS/original.json
+    - assets/data/GS/cover.json
+    - assets/data/GS/concerts.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  # 안드로이드 어댑티브 아이콘(선택)
+  adaptive_icon_background: "#5F5BFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash/splash.png
+  android: true
+  ios: true
+  android_12:
+    color: "#FFFFFF"
+    image: assets/splash/splash.png
